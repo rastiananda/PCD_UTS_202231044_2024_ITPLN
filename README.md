@@ -195,19 +195,19 @@ Pada sintaks diatas Thresholding keempat (RED-GREEN-BLUE) menghasilkan citra bin
 
 
 Citra yang ditampilkan adalah screenshot dari jupyter dengan program Python yang melakukan analisis citra terhadap teks nama saya yaitu "RASTI ANANDA INDARYANI NUR". Program ini membagi citra menjadi saluran warna merah, hijau, dan biru, kemudian menampilkan setiap saluran warna secara terpisah. Dan disini kita dapat menganalisis saluran warnanya yakni :
-#### 1). Saluran Biru:
+#### 1). Warna Biru:
 
 
 Saluran biru menampilkan kontras yang paling rendah antara teks dan latar belakang. Hal ini dikarenakan warna biru memiliki panjang gelombang yang lebih pendek daripada warna merah dan hijau, sehingga lebih mudah diserap oleh tinta hitam yang digunakan untuk menulis teks.
 
 
-#### 2). Saluran Merah:
+#### 2). Warna Merah:
 
 
 Saluran merah menampilkan kontras yang paling tinggi antara teks dan latar belakang. Hal ini dikarenakan warna merah memiliki panjang gelombang yang lebih panjang daripada warna biru dan hijau, sehingga lebih sedikit diserap oleh tinta hitam.
 
 
-#### 3). Saluran Hijau:
+#### 3). Warna Hijau:
 
 
 Saluran hijau menampilkan kontras yang sedang antara teks dan latar belakang. Hal ini dikarenakan warna hijau memiliki panjang gelombang yang berada di antara warna merah dan biru.
@@ -238,6 +238,8 @@ Histogram RGB ini memvisualisasikan distribusi intensitas pixel untuk ketiga cha
 
 ### 2. MENCARI NILAI AMBANG PADA GAMBAR
 jadi untuk mencari nilai ambang batasnya disini kita menggunakan metode thresholding dengan ambang batas yang berbeda. Nilai ambang batas ini ditentukan oleh variabel thresh dalam setiap pemanggilan cv2.threshold(), yang dimana disini kita menggunakan nilai ambang batasnya yaitu:
+
+
 a). NONE (Tanpa Thresholding) dengan ambang batasnya berkisar 0
 
 
